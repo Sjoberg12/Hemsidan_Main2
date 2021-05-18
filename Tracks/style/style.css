@@ -3,8 +3,10 @@ body {
   max-width: 100%;
 }
 .Background {
-  background-size: 150%;
-  background-color: grey;
+  background-size: 100%;
+  background-image: url(f1carMc1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .menu li {
   display: inline-block;
@@ -69,7 +71,6 @@ h1 {
 }
 .nav2 {
   display: flex;
-  margin-top: 200px;
   background-color: rgb(221, 20, 20);
   color: white;
   font-weight: 600;
@@ -83,7 +84,7 @@ h1 {
 img {
   border-style: solid;
   border-radius: 5px;
-  border-color: lawngreen;
+  border-color: rgb(252, 0, 0);
   align-content: center;
   margin-left: 95px;
   float: left;
@@ -99,6 +100,10 @@ p {
   margin-left: 810px;
   margin-right: 90px;
   letter-spacing: 2px;
+  padding: 20px;
+  border: solid;
+  background-color: rgb(221, 217, 217);
+  border-radius: 5px;
 }
 
 a:link {

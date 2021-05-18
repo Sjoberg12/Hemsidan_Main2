@@ -1,0 +1,85 @@
+body {
+  font-family: exo;
+}
+.Background {
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-image: url(f1carMc.jpg);
+}
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  font-weight: 600;
+  margin-right: 70px;
+}
+.nav1 {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 5px red;
+  height: 60px;
+  background-color: rgb(221, 217, 217);
+  color: rgb(0, 0, 0);
+  padding-right: 230px;
+  white-space: nowrap;
+}
+.Header {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+  margin-left: 300px;
+  letter-spacing: 5px;
+  -webkit-text-stroke-color: rgb(255, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  white-space: nowrap;
+}
+h1 {
+  margin-left: 328px;
+  margin-top: 100px;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+}
+.Headline {
+  display: flex;
+  font-weight: 600;
+  margin-left: 300px;
+  font-size: 25px;
+  max-width: 600px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: rgb(226, 226, 226);
+}
+.Headline2 {
+  display: flex;
+  font-weight: 600;
+  margin-left: 300px;
+  font-size: 25px;
+  max-width: 600px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: rgb(226, 226, 226);
+}
+.nav2 {
+  display: flex;
+  margin-top: 200px;
+  background-color: rgb(221, 20, 20);
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: white;
+}

@@ -1,0 +1,113 @@
+body {
+  font-family: exo;
+  max-width: 100%;
+}
+.Background {
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-image: url(f1carMc.jpg);
+  height: 100%;
+  background-size: cover;
+}
+.menu li {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 100%;
+  font-weight: 600;
+  margin-right: 150px;
+}
+.nav1 {
+  display: flex;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  box-shadow: 0 5px 5px red;
+  height: 60px;
+  background-color: rgb(221, 217, 217);
+  color: rgb(0, 0, 0);
+  max-width: 100%;
+  margin: auto;
+  justify-content: space-between;
+}
+.Header {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 50px;
+  margin-left: 9%;
+  letter-spacing: 5px;
+  -webkit-text-stroke-color: rgb(255, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  white-space: nowrap;
+}
+h1 {
+  margin-left: 10%;
+  margin-top: 100px;
+  display: flex;
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+}
+.Headline {
+  display: flex;
+  font-weight: 600;
+  margin-left: 7%;
+  font-size: 25px;
+  max-width: 600px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: rgb(226, 226, 226);
+}
+.Headline2 {
+  display: flex;
+  font-weight: 600;
+  margin-left: 7%;
+  font-size: 25px;
+  max-width: 600px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 1em;
+  background-color: rgb(226, 226, 226);
+}
+.nav2 {
+  display: flex;
+  margin-top: 200px;
+  background-color: rgb(221, 20, 20);
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+a:link {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  color: white;
+}
+
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+}

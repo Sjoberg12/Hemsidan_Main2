@@ -1,7 +1,6 @@
 body {
   font-family: exo;
   width: 100%;
-  max-width: 100%;
 }
 .Background {
   background-size: 100%;
@@ -15,7 +14,7 @@ body {
   list-style-type: none;
   font-size: 100%;
   font-weight: 600;
-  margin-right: 4.5em;
+  margin-right: 150px;
 }
 .nav1 {
   display: flex;
@@ -30,11 +29,12 @@ body {
   justify-content: space-between;
 }
 .Header {
+  display: flex;
   font-weight: 700;
   font-style: italic;
   font-size: 50px;
   margin-left: 9%;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   -webkit-text-stroke-color: rgb(255, 0, 0);
   -webkit-text-stroke-width: 2px;
   white-space: nowrap;

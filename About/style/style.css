@@ -1,28 +1,33 @@
 body {
   font-family: exo;
+  max-width: 100%;
 }
 .Background {
   background-size: 150%;
-  background-color: grey;
+  background-repeat: no-repeat;
+  background-image: url(/style/f1carMc.jpg);
+  height: 100%;
+  background-size: cover;
 }
 .menu li {
   display: inline-block;
   list-style-type: none;
+  font-size: 100%;
   font-weight: 600;
-  margin-left: 95px;
+  margin-right: 150px;
 }
 .nav1 {
   display: flex;
   position: sticky;
   top: 0;
-  justify-content: space-between;
   align-items: center;
   box-shadow: 0 5px 5px red;
   height: 60px;
   background-color: rgb(221, 217, 217);
   color: rgb(0, 0, 0);
-  padding-right: 230px;
-  white-space: nowrap;
+  max-width: 100%;
+  margin: auto;
+  justify-content: space-between;
 }
 .Header {
   font-weight: 700;
@@ -71,12 +76,18 @@ h1 {
   background-color: rgb(221, 20, 20);
   color: white;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
   color: rgb(0, 0, 0);
 }
 a:hover {

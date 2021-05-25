@@ -1,28 +1,32 @@
 body {
   font-family: exo;
+  max-width: 100%;
 }
 .Background {
-  background-size: 150%;
-  background-color: grey;
+  background-size: 100%;
+  background-image: url(/Pictures/Tracks/f1carMc1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .menu li {
   display: inline-block;
   list-style-type: none;
+  font-size: 100%;
   font-weight: 600;
-  margin-left: 95px;
+  margin-right: 150px;
 }
 .nav1 {
   display: flex;
   position: sticky;
   top: 0;
-  justify-content: space-between;
   align-items: center;
   box-shadow: 0 5px 5px red;
   height: 60px;
   background-color: rgb(221, 217, 217);
   color: rgb(0, 0, 0);
-  padding-right: 230px;
-  white-space: nowrap;
+  max-width: 100%;
+  margin: auto;
+  justify-content: space-between;
 }
 .Header {
   font-weight: 700;
@@ -54,54 +58,68 @@ h1 {
   padding: 1em;
   background-color: rgb(226, 226, 226);
 }
-.Headline2 {
-  display: flex;
-  font-weight: 600;
-  margin-left: 7%;
-  font-size: 25px;
-  max-width: 600px;
-  border-style: solid;
-  border-radius: 20px;
-  padding: 1em;
-  background-color: rgb(226, 226, 226);
-}
+
 .nav2 {
   display: flex;
-  margin-top: 200px;
   background-color: rgb(221, 20, 20);
   color: white;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px;
   justify-content: space-evenly;
+  text-align: center;
+  margin-top: 20%;
+}
+
+img {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(252, 0, 0);
+  align-content: center;
+  margin-left: 9%;
+  float: left;
+  max-width: 50%;
+  max-height: 40%;
+}
+iframe {
+  border: 2px red solid;
+  align-content: center;
+  margin-left: 9%;
+  float: left;
+  max-width: 50%;
+  max-height: 40%;
+}
+
+.F2004 {
+  margin-top: 30%;
+}
+.MP44 {
+  margin-top: 30%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 55%;
+  min-width: 30%;
+  max-width: 60%;
+  margin-right: 15%;
+  letter-spacing: 2px;
+  padding: 20px;
+  border: solid;
+  background-color: rgb(221, 217, 217);
+  border-radius: 3px;
+  display: flex;
 }
 
 a:link {
   color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 a:hover {
   color: white;
-}
-
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary {
-    width: 67%;
-  }
-  #secondary {
-    width: 30%;
-    margin-left: 3%;
-  }
-}
-
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary {
-    width: 100%;
-  }
-  #secondary {
-    width: 100%;
-    margin: 0;
-    border: none;
-  }
 }

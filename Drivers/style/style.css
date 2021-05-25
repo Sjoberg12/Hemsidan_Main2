@@ -76,21 +76,21 @@ img {
   border-radius: 5px;
   border-color: rgb(252, 0, 0);
   align-content: center;
-  margin-left: 95px;
+  margin-left: 9%;
   float: left;
   max-width: 50%;
   max-height: 40%;
 }
 
-.Spa {
+.SCH {
   margin-top: 30%;
 }
-.Silver {
+.SEN {
   margin-top: 30%;
 }
 
 p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
   margin-left: 55%;
   min-width: 30%;
@@ -101,6 +101,7 @@ p {
   border: solid;
   background-color: rgb(221, 217, 217);
   border-radius: 3px;
+  display: flex;
 }
 
 a:link {

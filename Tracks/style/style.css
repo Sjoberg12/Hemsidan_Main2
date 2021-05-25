@@ -79,6 +79,8 @@ h1 {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 20%;
+  border: solid;
+  border-color: black;
 }
 
 img {

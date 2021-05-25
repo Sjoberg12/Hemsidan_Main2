@@ -80,6 +80,8 @@ h1 {
   padding: 20px;
   justify-content: space-evenly;
   text-align: center;
+  border: solid;
+  border-color: black;
 }
 
 a:link {

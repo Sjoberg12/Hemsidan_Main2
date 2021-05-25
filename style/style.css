@@ -35,7 +35,7 @@ body {
   font-style: italic;
   font-size: 50px;
   margin-left: 9%;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   -webkit-text-stroke-color: rgb(255, 0, 0);
   -webkit-text-stroke-width: 2px;
   white-space: nowrap;

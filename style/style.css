@@ -84,6 +84,7 @@ h1 {
   max-width: 100%;
   border: solid;
   border-color: black;
+  font-size: 17px;
 }
 
 a:link {
